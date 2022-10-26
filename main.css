@@ -1,0 +1,518 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Wrapper */
+
+.main__wrapper {
+  width: 954px;
+  height: auto;
+  margin: 0px auto;
+}
+
+.main__div {
+  width: 100%;
+  height: auto;
+  border: 2px solid grey;
+  border-radius: 20px;
+}
+
+/* Main Div */
+
+.main__div > a {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+  position: relative;
+}
+
+header {
+  width: 728px;
+  text-align: center;
+  margin: 0.5rem auto;
+  margin-bottom: 0rem;
+  /* padding-right: 6px; ? */
+}
+
+header h1 {
+  font-size: 2rem;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+header h1 > b {
+  color: #3498db;
+}
+
+header p {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 0.55rem;
+  /* padding-left: .5rem; ?*/
+}
+
+.img__div {
+  width: 727px;
+  height: 409px;
+  border-radius: 10px;
+  border: 2px solid rgb(165, 165, 165);
+  margin: 0.4rem auto;
+  /* margin-left: 6.88rem; ?*/
+}
+
+.img__div > img {
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgb(128, 130, 133);
+  box-shadow: 0px 0px 7px 0px #000;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.main__btn {
+  box-sizing: border-box;
+  display: block;
+  width: 438px;
+  height: 76px;
+  margin: 1.5rem auto;
+  text-align: center;
+  color: white;
+  background-color: rgb(52, 147, 45);
+  border: none;
+  box-shadow: 0px 0px 5px 0px rgb(255 255 255) inset;
+  border-radius: 15px;
+  font-size: 28px;
+  padding: 4px;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+}
+
+.txts__div {
+  width: 796px;
+  margin: 1.9rem auto;
+}
+
+.txts__div > p {
+  font-family: "Roboto", sans-serif;
+  font-size: 21.9px;
+  margin-bottom: 3.16rem;
+}
+
+.txts__div > p:last-child {
+  margin-top: -0.4rem;
+}
+
+.txts__div p > span {
+  text-decoration: underline;
+}
+
+.main__div h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.25rem;
+  margin-top: -0.4rem;
+}
+
+.main__div h3 {
+  text-align: center;
+  margin-top: 2.65rem;
+  font-size: 1.62rem;
+  font-weight: 500;
+}
+
+.main__div ul {
+  margin-left: 120px;
+  margin-top: 2.6rem;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+}
+
+.main__div ul > li {
+  font-size: 1.35rem;
+  position: relative;
+  margin-bottom: 0.68rem;
+}
+
+li::before {
+  content: "";
+  width: 0.69rem;
+  height: 0.69rem;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  left: -1.2rem;
+  top: 0.5rem;
+}
+
+.learn__more {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 438px;
+  height: 76px;
+  margin: 1.5rem auto;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: white;
+  background-color: rgb(52, 147, 45);
+  border: none;
+  box-shadow: 0px 0px 5px 0px rgb(255 255 255) inset;
+  border-radius: 15px;
+  font-size: 28px;
+  padding: 4px;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+}
+
+.learn__more div {
+  margin-left: 2rem;
+}
+
+.learn__more > span {
+  margin-right: 9rem;
+}
+
+/* Disclaimer Row */
+
+.disclaimer__row {
+  font-family: "Lato", sans-serif;
+  width: 215px;
+  margin: 8rem auto;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(65, 105, 225);
+}
+
+.disclaimer__row > a {
+  font-size: 0.75rem;
+  color: rgb(65, 105, 225);
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0.1rem;
+}
+
+.disclaimer__row a:not(:last-child) {
+  border-right: 1px solid rgb(65, 105, 225);
+  padding-right: 0.4rem;
+}
+
+/* Second Div */
+
+.second__div {
+  width: 100%;
+  height: 674px;
+  margin: 0rem auto;
+  border-radius: 20px;
+  border: 2px solid rgb(128, 130, 133);
+  border-radius: 10px;
+  background-color: #f0f0f0;
+}
+
+.second__div > a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: url("Assets/Images/secondSection_img.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 10px;
+}
+
+.second__div:hover {
+  border: 2px solid black;
+}
+
+/* Footer */
+
+footer {
+  width: 100%;
+  height: auto;
+  margin-top: 15.5rem;
+}
+
+.footer__div {
+  width: 766px;
+  margin: 0rem auto;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+.footer__div p,
+.footer__div span {
+  width: 100%;
+  line-height: 30px;
+  font-family: "Lato", sans-serif;
+  color: rgb(112, 112, 112);
+  font-size: 0.75rem;
+}
+
+.footer__div p:first-child {
+  margin-bottom: 3rem;
+}
+
+.footer__div p:nth-child(2) {
+  margin-bottom: 1.2rem;
+}
+
+.footer__div span {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  color: rgb(128, 130, 133);
+  margin-top: 1rem;
+}
+
+.footer__div span:last-of-type {
+  margin-top: 0.7rem;
+}
+
+.footer__div a {
+  display: block;
+  cursor: pointer;
+  margin-top: 1.1rem;
+  margin-bottom: 3.3rem;
+}
+
+.footer__div a img {
+  width: 64px;
+  height: 77px;
+}
+
+.footer__div p:last-child {
+  margin-top: 0.8rem;
+}
+
+/* Key Frames */
+
+@media screen and (max-width: 1000px) {
+  .main__wrapper {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  /* Main Div */
+  .txts__div {
+    width: auto;
+    padding: 0rem 0.5rem;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  /* Footer */
+  .footer__div {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  /* Main Div */
+  header {
+    width: 90%;
+  }
+  .img__div {
+    width: 90%;
+  }
+
+  .main__div ul {
+    margin-left: 80px;
+  }
+
+  .second__div {
+    height: 500px;
+    border-radius: 20px;
+  }
+
+  .main__btn,
+  .learn__more {
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    padding: 4px;
+    border-radius: 10px;
+  }
+
+  .learn__more div {
+    margin-left: 3rem;
+  }
+
+  .learn__more > span {
+    margin-right: 5rem;
+    padding-bottom: 0.2rem;
+  }
+
+  .svg__book > svg {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /* First Div */
+  .main__div h2 {
+    font-size: 2rem;
+    margin-top: -0.4rem;
+  }
+
+  .main__div h3 {
+    margin-top: 2.65rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .main__div ul {
+    margin-left: 60px;
+  }
+
+  /* Footer */
+  footer {
+    margin-top: 10rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /* Main Div */
+  .img__div {
+    height: 300px;
+  }
+
+  .main__div ul {
+    margin-left: 30px;
+    padding: 0.2rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  /* Second Div */
+  .second__div {
+    height: 400px;
+    border-radius: 20px;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  /* Main Div */
+  header h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  header p {
+    font-size: 1rem;
+  }
+
+  .img__div {
+    height: 250px;
+  }
+
+  .txts__div > p {
+    font-size: 1rem;
+  }
+
+  .main__div h2 {
+    font-size: 1.3rem;
+  }
+
+  .main__div h3 {
+    font-size: 1rem;
+  }
+
+  .main__div ul > li {
+    font-size: 0.9rem;
+  }
+
+  li::before {
+    width: 0.39rem;
+    height: 0.39rem;
+    left: -0.7rem;
+    top: 0.4rem;
+  }
+
+  .main__btn,
+  .learn__more {
+    width: 250px;
+    height: 40px;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 10px;
+  }
+
+  .learn__more div {
+    margin-left: 3rem;
+  }
+
+  .learn__more > span {
+    margin-right: 2.5rem;
+    padding-bottom: 0.2rem;
+  }
+
+  .svg__book > svg {
+    width: 25px;
+    height: 25px;
+  }
+
+  .main__div ul {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  /* Second Div */
+  .second__div {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  /* First Div */
+  .img__div {
+    height: 230px;
+  }
+
+  /* Btns */
+  .main__btn,
+  .learn__more {
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    padding: 4px;
+    border-radius: 7px;
+  }
+
+  .learn__more div {
+    margin-left: 1.5rem;
+  }
+
+  .learn__more > span {
+    margin-right: 2.5rem;
+    padding-bottom: 0.2rem;
+  }
+
+  .svg__book > svg {
+    width: 25px;
+    height: 25px;
+  }
+}
